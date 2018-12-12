@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LatihanCRUDMVC.Controller.MahasiswaController">
+    <Position X="1.5" Y="1" Width="2" />
+    <Members>
+      <Field Name="_repository" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAABAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Controller\MahasiswaController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LatihanCRUDMVC.Model.Repository.MahasiswaRepository">
+    <Position X="3.75" Y="1" Width="2.25" />
+    <Members>
+      <Method Name="MahasiswaRepository" Hidden="true" />
+      <Method Name="RowMapper" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAAAABAEAAAAAAAAAAAEAAAAAAgAAAAAQAAg=</HashCode>
+      <FileName>Model\Repository\MahasiswaRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LatihanCRUDMVC.Model.Context.DbContext">
+    <Position X="6.25" Y="1" Width="2.5" />
+    <Members>
+      <Field Name="_conn" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAAABAAAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Model\Context\DbContext.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
